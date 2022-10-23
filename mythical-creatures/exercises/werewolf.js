@@ -21,6 +21,8 @@ class Werewolf {
       victimBeingEaten.alive = false
       this.form = 'human'
       return 'Yum, Hannah was delicious.'
+    } else if(this.form === 'human'){
+      return "No way am I eating Baby, I'd like a burger!"
     }
   }
 }
